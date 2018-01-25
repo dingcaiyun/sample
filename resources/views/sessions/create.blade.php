@@ -19,7 +19,7 @@
           </div>
 
           <div class="form-group">
-            <label for="password">密码：</label>
+            <label for="password">密码（<a href="{{ route('password.request') }}">忘记密码</a>）：</label>
             <input type="password" name="password" class="form-control" value="{{ old('password') }}">
           </div>
 
@@ -28,6 +28,7 @@
           </div>
 
           <button type="submit" class="btn btn-primary">登录</button>
+
       </form>
 
       <hr>
